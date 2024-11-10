@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container">
+        <h2>Personal Information</h2>
+        <labal for="name">Name:</labal><br>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <br>
+
+        <labal for="Email">Email:</labal><br>
+        <input type="Email" id="email" placeholder="Enter Your Email" required>
+        <br>
+        <labal for="degree">Degree:</labal>
+        <input type="text" id="degree" placeholder="Enter Your Degree" required>
+        <br>
+        <labal for="school">School/Collage/University:</labal>
+        <input type="text" id="school" placeholder="Select Your Study Place" required>
+        <br>
+        <labal for="grade-year:">Graduation year:</labal>
+        <input type="number" id="grade-year" placeholder="Enter Your Graduation year" required>
+        <br>
+        <labal for=" Work Experience:">Work Experience:</labal>
+        <textarea id="work experience" placeholder="Ener Your Work experience" required></textarea>
+        <br>
+        <labal for=" Skills:">Skills</labal><br>
+        <textarea id="skills" placeholder="Ener Your skills" required></textarea>
+        <br>
+        <button type="button" id="generate-resume">Generate-Resume</button>
+    </form>
+    <div id="Resume" style="display:none;">
+        <h2> Your Resume </h2>
+        <div>
+       <h3>Personal Information</h3>
+       <p><strong>Name:</strong> <span id="Resume-Name"></span></p>
+       <p><strong>Email:</strong> <span id="Resume-Email"></span></p>
+       
+       <h3> Education </h3>
+       <p><strong>Degree:</strong> <span id="Resume-Degree"></span></p>
+       <p><strong>Collage:</strong> <span id="Resume-Collage"></span></p>
+       <p><strong>University:</strong> <span id="Resume-University"></span></p>
+       <p><strong>Graduation Year:</strong> <span id="Resume-Grade year"></span></p>
+       
+       
+       <h3> Work Experience </h3>
+       <p id="Resume-Work Experience"></p>
+
+       <h3> Skills </h3>
+       <p id="Resume-Skills"></p>
+        </div>
+    </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

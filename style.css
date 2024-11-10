@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.avif);
+     
+}
+  .container {
+    width: 60%;
+    margin: auto;
+    background-color:#ffa600c9;
+    background-size: cover; /* Cover the entire screen */  
+    background-position: center; /* Center the image */  
+    background-repeat: no-repeat;  
+    
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    background-color: #00000005;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: bisque;
+  }
+  
+  button {
+    background-color: #063e55f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #000000ef;
+  }
+  
+  #resume {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
